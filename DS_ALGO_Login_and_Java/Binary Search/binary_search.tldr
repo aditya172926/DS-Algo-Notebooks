@@ -1,0 +1,273 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "032aceb6-bbfc-4a6d-161c-f1927b7febc4": {
+            "id": "032aceb6-bbfc-4a6d-161c-f1927b7febc4",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              499.49,
+              58.67
+            ],
+            "rotation": 0,
+            "text": "Binary Search Notes\n===================",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "6c47778a-9f8a-4013-2926-1492805f66f3": {
+            "id": "6c47778a-9f8a-4013-2926-1492805f66f3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              106.83999999999997,
+              121.59
+            ],
+            "rotation": 0,
+            "text": "It can be only implemented on the sorted array\n The array should be sorted in ascending or descending order.\n \nAs compared with the linear search, the worse case number of comparisons for the linear search is equal to the\ntotal number of elements (N).\nBinary search does better than that. It helps to reduce the number of comparisons even in the worst case.\n \nLets understand BS with an example:-\narr = [2, 4, 6, 9, 11, 12, 14, 20, 36, 48] -> This array is sorted in ascending order.\n \n Q) Find the target element 36 in the arr.\nAns) The following steps are followed when we do a Binary search on arr.\n1. Find the middle element of arr.",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.0122811059907832,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f6c578a7-a73e-4d19-04f3-f0ba14a53589": {
+            "id": "f6c578a7-a73e-4d19-04f3-f0ba14a53589",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              204,
+              559.08
+            ],
+            "size": [
+              785,
+              68
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "4416fd2e-d05e-4b87-3207-822a1bd62f49": {
+            "id": "4416fd2e-d05e-4b87-3207-822a1bd62f49",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              125.84,
+              574.09
+            ],
+            "rotation": 0,
+            "text": "arr = ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "91910bcf-560d-4ab6-1c66-c655a95c6f05": {
+            "id": "91910bcf-560d-4ab6-1c66-c655a95c6f05",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 5,
+            "point": [
+              215,
+              574.08
+            ],
+            "rotation": 0,
+            "text": "2               4           6            9             11               12             14              20           36          48",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f53ee4d5-4f50-4e32-3107-3dfe1e00d09a": {
+            "id": "f53ee4d5-4f50-4e32-3107-3dfe1e00d09a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 6,
+            "point": [
+              365,
+              659.75
+            ],
+            "rotation": 0,
+            "text": "Total length of arr = 9\nMiddle element of arr = 9//2 = element at index 4\nMiddle element = arr[4] = 11",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f40ccd10-15c3-4fc3-2023-493ac0c2d8d3": {
+            "id": "f40ccd10-15c3-4fc3-2023-493ac0c2d8d3",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 7,
+            "point": [
+              533.33,
+              518.75
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  21
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0,
+                  10.5
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "4f23e94a-f5b7-42e5-3f6a-458d1635c4b7": {
+            "id": "4f23e94a-f5b7-42e5-3f6a-458d1635c4b7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 8,
+            "point": [
+              534,
+              492.08
+            ],
+            "rotation": 0,
+            "text": "Middle element",
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "5a6cc924-b88b-4bac-3c38-6089c823f891": {
+            "id": "5a6cc924-b88b-4bac-3c38-6089c823f891",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 9,
+            "point": [
+              58,
+              779.25
+            ],
+            "rotation": 0,
+            "text": "STEP 2 -  Imagine we have the arr sorted in ascending order. And we know the middle element 11.\nWe know that 11 is smaller than the target element 36. As the arr is sorted in ascending order, we can say that all the elements\non the Left Hand Side of 11 is going to be smaller than 11. And all the elements on the RHS of 11 is going to be greater than 11.\n \nAs 36 > 11, it must be in RHS of 11. So we don't even need to look at the LHS of 11 now. So our arr size is reduced by half now.\n \n That means: if target > middle element => search in RHS\nif target < middle element => search in LHS\nif target == middle element => You found the answer!\n \nDRY RUN of BS Algorithm\n-----------------------",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [
+          "579143ec-c38f-4726-35d5-2924dfb4c3a9"
+        ],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        },
+        "editingId": null
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}
