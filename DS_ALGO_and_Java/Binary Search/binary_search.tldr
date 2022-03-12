@@ -2632,16 +2632,1471 @@
             "parentId": "page",
             "childIndex": 73,
             "point": [
-              85.92999999999995,
+              31.92999999999995,
               3496.8
             ],
             "rotation": 0,
-            "text": "The Best case complexity for BS is constant = O(1).\nThis is because the best case would be if we found our target element == to the middle element in the first iteration.\nSize does not matter for Best case.\n \n Let's see the Worst Case. Take this question.\nQ) Find the maximum number of comparisons in the Worst case.\nBS makes 1 comparison in each iteration right!\n ",
+            "text": "The Best case complexity for BS is constant = O(1).\nThis is because the best case would be if we found our target element == to the middle element in the first iteration.\nSize does not matter for Best case.\n \n Let's see the Worst Case. Take this question.\nQ) Find the maximum number of comparisons in the Worst case.\nBS makes 1 comparison in each iteration right!\n \nIn BS, every iteration reduces our search space by 1/2. So it the size of the array is N, then after the following\nIteration 1 -> search space = N/2\nIteration 2 -> Search space = N/4\nItereation 3 -> Search space = N/8\n.\n.\n.\nSome iteration m -> Search space = N/(2^m) where 0<m<k+1\n \n At the last level that is for iteration m, we will still make only 1 comparison, that is target == middle element?\n \nTherefore:  N/(2^m) = 1\nN = 2^m\nTaking log on both sides => log(N) = log(2^m)\nso log(N) = mlog(2)\n m = log(N)/log(2)\nm = log(N) (base = 2)\n \nWhat is m here? \"m\" is the total number of levels or iterations in the worst case. We will keep checking till the last element,\neither we will find the element or not.\nSo the total number of comparisons are log(N) (base = 2)\n \n Why this is useful?\nTake an example if length of the sorted array is N = 10,00,000\n The linear search will take 1 million comparisons to find the element in the worst case. BS will take only log(1000000) (base = 2)\n = 20 comparisons.",
             "style": {
               "color": "white",
               "size": "small",
               "isFilled": false,
               "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "43806946-92d0-413c-1e5b-2849022d6d67": {
+            "id": "43806946-92d0-413c-1e5b-2849022d6d67",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 74,
+            "point": [
+              553.33,
+              4426.33
+            ],
+            "rotation": 0,
+            "bend": -0.000016403959981481025,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  1
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  24.67,
+                  0
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  12.34,
+                  0.5
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "a777931c-2c9f-4cfb-38f4-fe549984d147": {
+            "id": "a777931c-2c9f-4cfb-38f4-fe549984d147",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 75,
+            "point": [
+              972.67,
+              4400.33
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  1
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  120.66,
+                  0
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  60.33,
+                  0.5
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "1615102c-cfa4-47a2-1ce9-6ee53ca5a37b": {
+            "id": "1615102c-cfa4-47a2-1ce9-6ee53ca5a37b",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 76,
+            "point": [
+              526.01,
+              4203.67
+            ],
+            "rotation": 0,
+            "bend": -0.08801043207751731,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  177.33,
+                  1
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  88.67,
+                  0.5
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "68fce19d-4664-4d28-1879-3b7eb79ed007": {
+            "id": "68fce19d-4664-4d28-1879-3b7eb79ed007",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 77,
+            "point": [
+              304,
+              4258
+            ],
+            "rotation": 0,
+            "bend": -0.00002136724929185579,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  468,
+                  1.67
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  234,
+                  0.84
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "a9f2e378-bf89-44ee-1e8f-ec7c7495a7dc": {
+            "id": "a9f2e378-bf89-44ee-1e8f-ec7c7495a7dc",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 78,
+            "point": [
+              523.33,
+              3952.67
+            ],
+            "rotation": 0,
+            "bend": -0.00004807680206262981,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  208,
+                  0.33
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  104,
+                  0.17
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "4152b3e6-98cf-453c-3ebd-62b91e0e293e": {
+            "id": "4152b3e6-98cf-453c-3ebd-62b91e0e293e",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 79,
+            "point": [
+              498,
+              3695.08
+            ],
+            "rotation": 0,
+            "bend": -0.00007871220167324599,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  125.33,
+                  1.67
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  62.67,
+                  0.84
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "88e5afd8-5f82-4a9c-1b14-2320125b90e5": {
+            "id": "88e5afd8-5f82-4a9c-1b14-2320125b90e5",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 80,
+            "point": [
+              794.67,
+              3529.42
+            ],
+            "rotation": 0,
+            "bend": -0.00016948103860567343,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0.33
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  59.33,
+                  0
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  29.67,
+                  0.17
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "d41a4df3-c774-4c58-24f2-3b297dbbd8a8": {
+            "id": "d41a4df3-c774-4c58-24f2-3b297dbbd8a8",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 81,
+            "point": [
+              324.58000000000004,
+              4505.75
+            ],
+            "rotation": 0,
+            "text": "An Alternative Better way to find Mid",
+            "style": {
+              "color": "white",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a9101971-e0f6-4769-1038-b8085841045b": {
+            "id": "a9101971-e0f6-4769-1038-b8085841045b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 82,
+            "point": [
+              63.08000000000004,
+              4589.75
+            ],
+            "rotation": 0,
+            "text": "Till now were calculating the mid value using the Start and End value in the formula\nmid = (Start + End)/2\nHere is a problem with this approach that, \"int\" or integer in Java has certain range. Using the above formula to get the mid\nmight exceed the range of integer.\n \nA better way to find the mid index is using this formula\nmid = Start + (End - Start)/2\n \nFor descending order array, \nif target > middle element; then End = mid-1\nif target < middle element; then Start = mid + 1",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "04bd9e9d-72c7-4dc6-1e0f-187e3056af6b": {
+            "id": "04bd9e9d-72c7-4dc6-1e0f-187e3056af6b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 83,
+            "point": [
+              228.84,
+              4944
+            ],
+            "rotation": 0,
+            "text": "You can now go into the Binary Search folder and have a look at the Java or Python code.",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2e396141-22e9-47a0-09e7-ff673a012d88": {
+            "id": "2e396141-22e9-47a0-09e7-ff673a012d88",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 84,
+            "point": [
+              407.51,
+              5018.09
+            ],
+            "rotation": 0,
+            "text": "Order-agnostic Binary Search\n--------------------------",
+            "style": {
+              "color": "white",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "b84e0e7e-2c21-404a-3b20-2ba1582499c4": {
+            "id": "b84e0e7e-2c21-404a-3b20-2ba1582499c4",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 85,
+            "point": [
+              69.84,
+              5139.5
+            ],
+            "rotation": 0,
+            "text": "In the previous explanation, we assumed that the array which we will get is sorted. We also know that the array is sorted so \nwe were able to apple the Binary search without any worries.\n \nBut what happens if we don't know in which order has the array been sorted? How do we apply the binary search there?\n \nWe need to check if the array is sorted in ascending or descending order. Only then we can apply BS effectively. We can \neasily do this by comparing any 2 elements from the array. Have a look - ",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c80ab9ea-aeb0-493b-1f51-6c8fa3d68e26": {
+            "id": "c80ab9ea-aeb0-493b-1f51-6c8fa3d68e26",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "43555eb7-692b-4ec6-3988-04eb389cae01",
+            "childIndex": 1,
+            "point": [
+              274.16,
+              5444.42
+            ],
+            "size": [
+              785,
+              68
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "7008c3f1-8ac3-48b7-292b-7ea91021a8e2": {
+            "id": "7008c3f1-8ac3-48b7-292b-7ea91021a8e2",
+            "type": "text",
+            "name": "Text",
+            "parentId": "43555eb7-692b-4ec6-3988-04eb389cae01",
+            "childIndex": 2,
+            "point": [
+              285.16,
+              5459.42
+            ],
+            "rotation": 0,
+            "text": "2               4           6            9             11               12             14              20           36          48",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "43555eb7-692b-4ec6-3988-04eb389cae01": {
+            "id": "43555eb7-692b-4ec6-3988-04eb389cae01",
+            "type": "group",
+            "name": "Group",
+            "parentId": "page",
+            "childIndex": 86,
+            "point": [
+              274.16,
+              5444.42
+            ],
+            "size": [
+              785,
+              68
+            ],
+            "rotation": 0,
+            "children": [
+              "c80ab9ea-aeb0-493b-1f51-6c8fa3d68e26",
+              "7008c3f1-8ac3-48b7-292b-7ea91021a8e2"
+            ],
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            }
+          },
+          "1d354522-4f86-4281-30e7-6eb01f70cfd6": {
+            "id": "1d354522-4f86-4281-30e7-6eb01f70cfd6",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 87,
+            "point": [
+              211.83,
+              5458.17
+            ],
+            "rotation": 0,
+            "text": "arr = ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e9be4a7f-81f7-41cb-14b8-df9b291ab608": {
+            "id": "e9be4a7f-81f7-41cb-14b8-df9b291ab608",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 88,
+            "point": [
+              296.5,
+              5413.84
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  21
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0,
+                  10.5
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "929a3803-ff35-4c71-2626-bf4e1e3d3bae": {
+            "id": "929a3803-ff35-4c71-2626-bf4e1e3d3bae",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 89,
+            "point": [
+              274.33,
+              5375.58
+            ],
+            "rotation": 0,
+            "text": "ele1",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "533ea5f4-3ebd-428a-1896-5300220a7567": {
+            "id": "533ea5f4-3ebd-428a-1896-5300220a7567",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 90,
+            "point": [
+              384.5,
+              5416.51
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  21
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0,
+                  10.5
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "ed3b4356-52f8-41ec-0b8d-c075036ab8a5": {
+            "id": "ed3b4356-52f8-41ec-0b8d-c075036ab8a5",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 91,
+            "point": [
+              360,
+              5381.67
+            ],
+            "rotation": 0,
+            "text": "ele2",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "dashed",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c94fea7b-3205-45f7-05b2-bacc0850e6b9": {
+            "id": "c94fea7b-3205-45f7-05b2-bacc0850e6b9",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 92,
+            "point": [
+              48.34,
+              5656.92
+            ],
+            "rotation": 0,
+            "text": " \nBut, there is a problem. What if arr[ele1] = arr[ele2]? In this case we cannot determine in which order the array has been sorted.",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "eeb169bc-b668-4e33-1213-58ff8a393bf3": {
+            "id": "eeb169bc-b668-4e33-1213-58ff8a393bf3",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "a59005fa-d92d-4312-28af-ec74ee846540",
+            "childIndex": 1,
+            "point": [
+              284.35,
+              5877.67
+            ],
+            "size": [
+              785,
+              68
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "537a6265-0866-4f74-084e-04337ad9dc59": {
+            "id": "537a6265-0866-4f74-084e-04337ad9dc59",
+            "type": "text",
+            "name": "Text",
+            "parentId": "a59005fa-d92d-4312-28af-ec74ee846540",
+            "childIndex": 2,
+            "point": [
+              295.85,
+              5892.67
+            ],
+            "rotation": 0,
+            "text": "2               2           6            9             11               12             14              20           36          48",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a59005fa-d92d-4312-28af-ec74ee846540": {
+            "id": "a59005fa-d92d-4312-28af-ec74ee846540",
+            "type": "group",
+            "name": "Group",
+            "parentId": "page",
+            "childIndex": 93,
+            "point": [
+              284.35,
+              5877.67
+            ],
+            "size": [
+              784.9999999999999,
+              68
+            ],
+            "rotation": 0,
+            "children": [
+              "eeb169bc-b668-4e33-1213-58ff8a393bf3",
+              "537a6265-0866-4f74-084e-04337ad9dc59"
+            ],
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            }
+          },
+          "83abccba-75dc-4a63-119f-6df3f3ed161b": {
+            "id": "83abccba-75dc-4a63-119f-6df3f3ed161b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 94,
+            "point": [
+              222.02,
+              5891.42
+            ],
+            "rotation": 0,
+            "text": "arr = ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2fded23d-7314-4611-31c6-0642eb76b465": {
+            "id": "2fded23d-7314-4611-31c6-0642eb76b465",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 95,
+            "point": [
+              306.69,
+              5847.09
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  21
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0,
+                  10.5
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "c69a1d85-da2a-4bda-03b4-7da8c14b530c": {
+            "id": "c69a1d85-da2a-4bda-03b4-7da8c14b530c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 96,
+            "point": [
+              284.51,
+              5808.83
+            ],
+            "rotation": 0,
+            "text": "ele1",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7f75060b-d6b2-420c-3362-93ded298dfde": {
+            "id": "7f75060b-d6b2-420c-3362-93ded298dfde",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 97,
+            "point": [
+              394.69,
+              5849.76
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  21
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0,
+                  10.5
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "cb48d485-4cbf-4808-2f64-e58c9bec1c7e": {
+            "id": "cb48d485-4cbf-4808-2f64-e58c9bec1c7e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 98,
+            "point": [
+              370.19,
+              5814.92
+            ],
+            "rotation": 0,
+            "text": "ele2",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "dashed",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a315f82d-9756-4e6d-029e-da2991b510d6": {
+            "id": "a315f82d-9756-4e6d-029e-da2991b510d6",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 99,
+            "point": [
+              291.01,
+              5891.91
+            ],
+            "size": [
+              127.66,
+              38.67
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "cf8b28b0-0bd3-4074-1005-e02ee7f606a9": {
+            "id": "cf8b28b0-0bd3-4074-1005-e02ee7f606a9",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "page",
+            "childIndex": 100,
+            "point": [
+              58.34,
+              5794.91
+            ],
+            "radius": [
+              100,
+              52.164999999999964
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "76d71540-b3c6-435e-004a-e8080dd62c8a": {
+            "id": "76d71540-b3c6-435e-004a-e8080dd62c8a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 101,
+            "point": [
+              90.84,
+              5822.57
+            ],
+            "rotation": 0,
+            "text": "PROBLEM !!!",
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c299f743-5a19-433e-0484-4038c87b7264": {
+            "id": "c299f743-5a19-433e-0484-4038c87b7264",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 102,
+            "point": [
+              243.1,
+              5874.75
+            ],
+            "rotation": 0,
+            "bend": -0.00015016659034599884,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "a617e73c-3b49-4dc2-3920-cdf3b63450a6"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  52.53,
+                  17.16
+                ],
+                "canBind": true,
+                "bindingId": "40f3b53a-04fd-465d-31f4-87f4480f5878"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  26.27,
+                  8.58
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "6aafff9c-4ffa-4566-204d-1bbc4e6f56cb": {
+            "id": "6aafff9c-4ffa-4566-204d-1bbc4e6f56cb",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 103,
+            "point": [
+              338.66999999999996,
+              5561.75
+            ],
+            "rotation": 0,
+            "text": "Here if arr[ele1] > arr[ele2], then the arr is in descending order,\nif arr[ele1] < arr[ele2] then the arr is in ascending order.",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "d717cfc9-3ef2-4609-2fdf-5f8e30229fc0": {
+            "id": "d717cfc9-3ef2-4609-2fdf-5f8e30229fc0",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 104,
+            "point": [
+              280.5,
+              6004.75
+            ],
+            "rotation": 0,
+            "text": "So the best 2 numbers to pick it up fromthe list are the First and Last element.\nand if arr[first] > arr[last] then descending,\nelse if arr[first] < arr[last] then ascending.",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "3ff8289b-5ff1-4149-339b-d63b362a1f6c": {
+            "id": "3ff8289b-5ff1-4149-339b-d63b362a1f6c",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "31b1871a-37f0-4fd5-06f2-b4fea74bc6cc",
+            "childIndex": 1,
+            "point": [
+              289.68,
+              6163.13
+            ],
+            "size": [
+              785,
+              68
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "13dcac89-bb54-4faf-0a88-080dfa362df1": {
+            "id": "13dcac89-bb54-4faf-0a88-080dfa362df1",
+            "type": "text",
+            "name": "Text",
+            "parentId": "31b1871a-37f0-4fd5-06f2-b4fea74bc6cc",
+            "childIndex": 2,
+            "point": [
+              301.18,
+              6178.13
+            ],
+            "rotation": 0,
+            "text": "2               2           6            9             11               12             14              20           36          48",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "31b1871a-37f0-4fd5-06f2-b4fea74bc6cc": {
+            "id": "31b1871a-37f0-4fd5-06f2-b4fea74bc6cc",
+            "type": "group",
+            "name": "Group",
+            "parentId": "page",
+            "childIndex": 105,
+            "point": [
+              289.68,
+              6163.13
+            ],
+            "size": [
+              785,
+              68
+            ],
+            "rotation": 0,
+            "children": [
+              "3ff8289b-5ff1-4149-339b-d63b362a1f6c",
+              "13dcac89-bb54-4faf-0a88-080dfa362df1"
+            ],
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            }
+          },
+          "39860caa-d55c-45da-0116-833eaf69d954": {
+            "id": "39860caa-d55c-45da-0116-833eaf69d954",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 106,
+            "point": [
+              227.35,
+              6176.88
+            ],
+            "rotation": 0,
+            "text": "arr = ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c347b42c-7afa-4185-18b9-e707e8bdc881": {
+            "id": "c347b42c-7afa-4185-18b9-e707e8bdc881",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 107,
+            "point": [
+              312.02,
+              6132.55
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  21
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0,
+                  10.5
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "f5d43b8e-b9ac-4923-3d2a-6f4cb50741bf": {
+            "id": "f5d43b8e-b9ac-4923-3d2a-6f4cb50741bf",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 108,
+            "point": [
+              289.84,
+              6094.29
+            ],
+            "rotation": 0,
+            "text": "ele1",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "b7c8adfb-be86-4795-0b3a-14b0d009a1db": {
+            "id": "b7c8adfb-be86-4795-0b3a-14b0d009a1db",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 109,
+            "point": [
+              1050.02,
+              6135.22
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  21
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0,
+                  10.5
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "2854e0e3-f895-4020-2fb7-c0d712d95ea3": {
+            "id": "2854e0e3-f895-4020-2fb7-c0d712d95ea3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 110,
+            "point": [
+              1025.52,
+              6100.38
+            ],
+            "rotation": 0,
+            "text": "ele2",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "dashed",
               "scale": 1,
               "font": "script",
               "textAlign": "middle"
@@ -2660,6 +4115,30 @@
               0.5
             ],
             "distance": 8
+          },
+          "a617e73c-3b49-4dc2-3920-cdf3b63450a6": {
+            "id": "a617e73c-3b49-4dc2-3920-cdf3b63450a6",
+            "type": "arrow",
+            "fromId": "c299f743-5a19-433e-0484-4038c87b7264",
+            "toId": "cf8b28b0-0bd3-4074-1005-e02ee7f606a9",
+            "handleId": "start",
+            "point": [
+              0.5,
+              0.5
+            ],
+            "distance": 8
+          },
+          "40f3b53a-04fd-465d-31f4-87f4480f5878": {
+            "id": "40f3b53a-04fd-465d-31f4-87f4480f5878",
+            "type": "arrow",
+            "fromId": "c299f743-5a19-433e-0484-4038c87b7264",
+            "toId": "a315f82d-9756-4e6d-029e-da2991b510d6",
+            "handleId": "end",
+            "point": [
+              0.5,
+              0.5
+            ],
+            "distance": 16
           }
         }
       }
