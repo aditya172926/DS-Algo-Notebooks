@@ -27,7 +27,7 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 1,
-              "font": "script",
+              "font": "sans",
               "textAlign": "middle"
             }
           },
@@ -38,7 +38,7 @@
             "parentId": "page",
             "childIndex": 2,
             "point": [
-              106.83999999999997,
+              106.84,
               121.59
             ],
             "rotation": 0,
@@ -49,7 +49,7 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 1.0122811059907832,
-              "font": "script",
+              "font": "sans",
               "textAlign": "middle"
             }
           },
@@ -73,7 +73,8 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1
+              "scale": 1,
+              "font": "sans"
             },
             "label": "",
             "labelPoint": [
@@ -99,7 +100,7 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 1,
-              "font": "script",
+              "font": "sans",
               "textAlign": "middle"
             }
           },
@@ -121,7 +122,7 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 1,
-              "font": "script",
+              "font": "sans",
               "textAlign": "middle"
             }
           },
@@ -143,7 +144,7 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 1,
-              "font": "script",
+              "font": "sans",
               "textAlign": "middle"
             }
           },
@@ -195,7 +196,8 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1
+              "scale": 1,
+              "font": "sans"
             },
             "label": "",
             "labelPoint": [
@@ -221,7 +223,7 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 1,
-              "font": "script",
+              "font": "sans",
               "textAlign": "middle"
             }
           },
@@ -243,7 +245,7 @@
               "isFilled": false,
               "dash": "draw",
               "scale": 1,
-              "font": "script",
+              "font": "sans",
               "textAlign": "middle"
             }
           },
@@ -258,7 +260,7 @@
               559.08
             ],
             "size": [
-              785,
+              932,
               68
             ],
             "rotation": 0,
@@ -271,7 +273,8 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1
+              "scale": 1,
+              "font": "sans"
             }
           },
           "61aa6655-ed45-4ab4-214c-ed50292cd56c": {
@@ -335,7 +338,7 @@
               1191.92
             ],
             "size": [
-              785,
+              932,
               68
             ],
             "rotation": 0,
@@ -712,7 +715,7 @@
               1584.17
             ],
             "size": [
-              785,
+              932,
               68
             ],
             "rotation": 0,
@@ -1202,7 +1205,7 @@
               2267.99
             ],
             "size": [
-              416,
+              499,
               38
             ],
             "rotation": 0,
@@ -1594,7 +1597,7 @@
               2573
             ],
             "size": [
-              416.00000000000006,
+              499.00000000000006,
               38
             ],
             "rotation": 0,
@@ -1742,7 +1745,7 @@
               2800.5
             ],
             "size": [
-              108,
+              124,
               38
             ],
             "rotation": 0,
@@ -3196,7 +3199,7 @@
               5444.42
             ],
             "size": [
-              785,
+              932,
               68
             ],
             "rotation": 0,
@@ -3473,7 +3476,7 @@
               5877.67
             ],
             "size": [
-              784.9999999999999,
+              932.4999999999999,
               68
             ],
             "rotation": 0,
@@ -3908,7 +3911,7 @@
               6163.13
             ],
             "size": [
-              785,
+              932.5,
               68
             ],
             "rotation": 0,

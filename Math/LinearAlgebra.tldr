@@ -1,0 +1,362 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "425030ba-8a97-451c-3571-46849c9a3ca1": {
+            "id": "425030ba-8a97-451c-3571-46849c9a3ca1",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              358.33000000000004,
+              8.670000000000002
+            ],
+            "rotation": 0,
+            "text": "Linear Algebra",
+            "style": {
+              "color": "black",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "572c295c-5620-4640-288b-a3003aa1e472": {
+            "id": "572c295c-5620-4640-288b-a3003aa1e472",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              537.5,
+              142.67
+            ],
+            "rotation": 0,
+            "text": "1. Scalers",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c9542715-4441-4f1f-3bd8-5255535f65bb": {
+            "id": "c9542715-4441-4f1f-3bd8-5255535f65bb",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 3,
+            "point": [
+              84.83,
+              189
+            ],
+            "rotation": 0,
+            "text": "Values consisting of just a numerical value is a scalar.  A space of all real valued scalars can be denoted by -> R\n Example here is the scalar variable x. We say that x ∈ R, that is x is a scalar in the space of real values R. \nIn similar way we can write that x, y ∈ {0 , 1} to state that x and y are scalar values whose value can be only 0 or 1.",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "86284961-6dfe-4b4e-2b47-06f7ee2ebfc0": {
+            "id": "86284961-6dfe-4b4e-2b47-06f7ee2ebfc0",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              390,
+              277.67
+            ],
+            "rotation": 0,
+            "bend": 0.0000011002541817450995,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  95.33,
+                  1
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  47.67,
+                  0.5
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "red",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "b20235a5-d222-46d5-20f2-d3a9502f7921": {
+            "id": "b20235a5-d222-46d5-20f2-d3a9502f7921",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 6,
+            "point": [
+              620,
+              627.75
+            ],
+            "size": [
+              49,
+              188.67
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "61bb7dc5-2e27-4ed2-3524-19c8aa6ec647": {
+            "id": "61bb7dc5-2e27-4ed2-3524-19c8aa6ec647",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 7,
+            "point": [
+              626,
+              634.3299999999999
+            ],
+            "rotation": 0,
+            "text": "x1\nx2\n.\n.\n.\nxn",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "62f712b0-d09f-4894-0bdc-c7b9d53644ac": {
+            "id": "62f712b0-d09f-4894-0bdc-c7b9d53644ac",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 5,
+            "point": [
+              -5.18,
+              333.99
+            ],
+            "rotation": 0,
+            "text": "2. Vectors\n \n Vectors can be simple thought of as a list of scalar values. They are called vector elements or components. When vectors represent \nsome characteristic from the dataset, they hold some real-world significance. For example if we want to train a model to \npredict the risk of a loan default, we may assign a vector to each customer whose components can be their income, credit score,\n employment, previous loans and more.\nIf we are studying the risk of heart patients in a hospital, we can assign a vector to each patient having the components such\nas colestrol, heart condition, diet, weight, height and more.\n \nIn math, a vector X can be written as ->\n \n \nX = \n \n \n \n \n \nwhere x1, x2, . . . , xn are the element or components of the vector X. We can treat them as a list of scalers in Python.\nIn Math notation if we want to say that vector X contains \"n\" real values, we write it as X ∈ R^n.\nThe length of the vector is called the dimension.\n \n A tensor represents a vector (precisely one axis). There is a difference between the dimensionality of vector and the dimensionality\nof a tensor. The dimensionality of a vector or an axis refers to its length. However the dimensionality of a tensor refers the number\nof axis that tensor has. In this sense the dimensionality of some axis of a tensor will be the length of that axis.\n \n3. Matrices\n \nJust as a vector generalizes a scalar from 0 to 1 order, a matrix generalizes a vector from 1 order to 2 order. They are represented\nin code as a tensor with 2 axis.\nIn math notation we write as A ∈ R^(m × n), to express that matrix A consists of \"m\" rows and \"n\" columns. We can visualize\na matrix as a table\n \n \n \nA = ",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "610c6135-7199-43d9-22d0-12d8ce9ecaea": {
+            "id": "610c6135-7199-43d9-22d0-12d8ce9ecaea",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 8,
+            "point": [
+              644,
+              1259
+            ],
+            "size": [
+              253,
+              191.33
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "93c9e283-f022-4a05-27a6-e10572c6ed72": {
+            "id": "93c9e283-f022-4a05-27a6-e10572c6ed72",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 9,
+            "point": [
+              655.66,
+              1268.34
+            ],
+            "rotation": 0,
+            "text": "a11   a12   a13 . . . . . .  a1n",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "7ce1ae0d-3faf-4602-3379-955fb029ee71": {
+            "id": "7ce1ae0d-3faf-4602-3379-955fb029ee71",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 10,
+            "point": [
+              651.5,
+              1314.67
+            ],
+            "rotation": 0,
+            "text": "a21   a22   a23 . . . . . .  a2n",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "9abd96cb-b69a-4c8f-1334-442031dcdd18": {
+            "id": "9abd96cb-b69a-4c8f-1334-442031dcdd18",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 12,
+            "point": [
+              649.5,
+              1390.67
+            ],
+            "rotation": 0,
+            "text": "am1   am2   am3 . . . .  amn",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "62c8d821-d6ff-46d4-0d40-a2f3a651251f": {
+            "id": "62c8d821-d6ff-46d4-0d40-a2f3a651251f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 11,
+            "point": [
+              651.5,
+              1352.67
+            ],
+            "rotation": 0,
+            "text": ".           .         .   . . . . . .    .  ",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "f71b703b-2490-4073-1b64-ab2439f327a7": {
+            "id": "f71b703b-2490-4073-1b64-ab2439f327a7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 13,
+            "point": [
+              24.83000000000004,
+              1490.5
+            ],
+            "rotation": 0,
+            "text": "This is A ∈ R^(m×n)\n Its shape is (mxn)\n \nSometimes we want to flip the axis of the tensor or the matrix. So now the rows becomes the columns and vice-versa. The resulting \nmatrix is called transpose matrix. Denoted as A^T.\n \n Matrices are useful as they allow us to organize the data into different modalities of variation.\nFor example the rows in the matrix may correspond to different houses, while correspond to different attributes.\nAlthough the default orientation of a single vector is a column vector, matrix can be seen as a tabular data. It is easier to\nhandle such tabular data while dealing with row vector.\n \n4. Tensor\n \n ",
+            "style": {
+              "color": "white",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}
