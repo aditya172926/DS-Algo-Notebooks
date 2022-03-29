@@ -1,3 +1,2 @@
 # Kaggle-Notebooks
-These are my personal kaggle notebooks
-This repository contains my tutorials from kaggle and other sources.
+This repository contains many algorithms and data structure concepts which are useful for a programmer.
